@@ -1,0 +1,83 @@
+{
+  "shop": {
+    "name": "こもれび製パン所",
+    "category": "パン屋",
+    "instagram": "https://www.instagram.com/komorebi_bakery_demo/"
+  },
+  "theme": {
+    "template": "modern",
+    "primaryColor": "#3B5A85",
+    "accentColor": "#B5532F",
+    "backgroundColor": "#FFFFFF",
+    "textColor": "#222222",
+    "font": "Noto Sans JP"
+  },
+  "header": {
+    "logoText": { "value": "こもれび製パン所", "lock": false, "editedBy": "ai" },
+    "menu": ["メニュー", "お店について", "アクセス"]
+  },
+  "hero": {
+    "background": { "value": "#3B5A85", "lock": false, "editedBy": "ai" },
+    "image": {
+      "value": "images/croissant.jpg",
+      "alt": "クロワッサン",
+      "sourcePostId": "post-001",
+      "lock": false,
+      "editedBy": "ai"
+    },
+    "title": { "value": "天然酵母で、毎朝焼きたて。", "lock": false, "editedBy": "ai" },
+    "lead": {
+      "value": "本日の焼きたてクロワッサン。発酵バターを折り込んで、外はサクッと中はふんわり仕上げています。",
+      "lock": false,
+      "editedBy": "ai"
+    },
+    "button": {
+      "label": { "value": "取り置きを予約する", "lock": false, "editedBy": "ai" },
+      "color": { "value": "#B5532F", "lock": false, "editedBy": "ai" },
+      "link": "tel:000-0000-0000"
+    }
+  },
+  "about": {
+    "title": { "value": "お店について", "lock": false, "editedBy": "ai" },
+    "body": {
+      "value": "こもれびが差し込む小さな店内。",
+      "lock": true,
+      "editedBy": "user"
+    }
+  },
+  "menu": {
+    "title": { "value": "メニュー", "lock": false, "editedBy": "ai" },
+    "items": [
+      { "name": "クロワッサン", "price": 280, "image": "images/croissant.jpg" },
+      { "name": "天然酵母の食パン", "price": 420, "image": "images/bread.jpg" },
+      { "name": "季節のフルーツデニッシュ", "price": 350, "image": "images/danish.jpg" }
+    ]
+  },
+  "news": {
+    "title": { "value": "お知らせ", "lock": false, "editedBy": "ai" },
+    "items": [
+      { "date": "2026-11-20", "text": "12月から冬季限定のシュトーレンを販売します。" }
+    ]
+  },
+  "access": {
+    "title": { "value": "アクセス", "lock": false, "editedBy": "ai" },
+    "address": "福岡市○○区○○ 1-2-3",
+    "hours": "8:00〜18:00",
+    "holiday": "毎週火曜日",
+    "phone": "000-0000-0000",
+    "map": {
+      "query": "福岡市○○区○○ 1-2-3",
+      "embedUrl": "https://www.google.com/maps?q=福岡市○○区○○1-2-3&output=embed"
+    },
+    "instagramButton": { "label": "Instagramで最新情報を見る", "show": true }
+  },
+  "footer": {
+    "shopName": "こもれび製パン所",
+    "copyright": "© 2026 こもれび製パン所"
+  },
+  "usedPosts": [
+    { "postId": "post-001", "usedIn": ["hero.image", "hero.lead", "menu.items[0]"] },
+    { "postId": "post-002", "usedIn": ["about.body"] },
+    { "postId": "post-003", "usedIn": ["news.items[0]"] }
+  ]
+}
